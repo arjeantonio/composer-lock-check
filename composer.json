@@ -1,0 +1,19 @@
+{
+    "name": "arjeantonio/composer-lock-check",
+    "description": "Checks the composer.lock packages dist version",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arjeantio"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ajt\\ComposerLockCheck\\": "src/"
+        }
+    }
+}
